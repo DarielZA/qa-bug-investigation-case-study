@@ -1,8 +1,10 @@
 # Manual QA Assessment: Bug Evidence
 
-Bug evidence from a manual QA technical assessment I completed for a previous job application. The app under test was a Spanish-language inventory web app with a login, user management and a product stock screen.
+Bug evidence from a manual QA technical assessment I completed for a previous job application. 
+The app under test was a Spanish-language inventory web app with a login, user management and a product stock screen.
 
-I captured each issue as an annotated screenshot or a short screen recording. Red marks show where the problem appears. Each description below lists what the capture shows and what the assessment's acceptance criteria or mockups expected instead.
+I captured each issue as an annotated screenshot or a short screen recording. Red marks show where the problem appears. 
+Each description below lists what the capture shows and what the assessment's acceptance criteria or mockups expected instead.
 
 ## Acceptance criteria (summary)
 
@@ -12,6 +14,14 @@ Summarized from the original assessment brief. The brief itself is not included 
 - **User and product registration:** all fields are required and visually marked as required; name and last-name fields accept alphabetic values only; an error message appears when data is missing; follow the mockup.
 - **Buttons:** every button in the site follows the mockup style: rounded border, blue background, white text.
 - **Stock ("Almacén"):** the product table shows Código, Nombre and Cantidad; products display in blocks of 10 with a pagination bar; data can be filtered by Sucursal and Categoría; the search field filters as you type; products are ordered by Código ascending by default; Excel and PDF export buttons are shown and must export the table correctly; follow the mockup.
+
+## What this shows about my approach
+
+- Functional testing of login, user creation and stock screens against written acceptance criteria and mockups.
+- Checking input handling with special characters and blank fields.
+- Verifying that exports match the data shown on screen.
+- Visual and text checks (typos, mockup mismatches and display errors).
+- Clear evidence: one issue per capture, annotated, with screen recordings for steps that need motion.
 
 ## Evidence
 
@@ -27,11 +37,3 @@ Summarized from the original assessment brief. The brief itself is not included 
 | [BUG08.PNG](evidence/BUG08.PNG) | A product's stock quantity displays as `[object Object]` instead of a number (marked in red). | The table must show each product's quantity as a number. |
 | [Typo_1.PNG](evidence/Typo_1.PNG) | The form title reads "Registrar usaurio" (underlined in red). | Correct spelling: "Registrar usuario", as in the mockup. |
 | [Typo_2.PNG](evidence/Typo_2.PNG) | The page title reads "Productos en exsitencia" (underlined in red). | Correct spelling: "Productos en existencia", as in the mockup. |
-
-## What this shows about my approach
-
-- Functional testing of login, user creation and stock screens against written acceptance criteria and mockups.
-- Checking input handling with special characters and blank fields.
-- Verifying that exports match the data shown on screen.
-- Visual and text checks (typos, mockup mismatches and display errors).
-- Clear evidence: one issue per capture, annotated, with screen recordings for steps that need motion.
