@@ -3,9 +3,6 @@
 Bug evidence from a manual QA technical assessment I completed for a previous job application. 
 The app under test was a Spanish-language inventory web app with a login, user management and a product stock screen.
 
-I captured each issue as an annotated screenshot or a short screen recording. Red marks show where the problem appears. 
-Each description below lists what the capture shows and what the assessment's acceptance criteria or mockups expected instead.
-
 ## Acceptance criteria (summary)
 
 Summarized from the original assessment brief. The brief itself is not included in this repo because it contains test credentials.
